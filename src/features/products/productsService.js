@@ -2,6 +2,7 @@ import axios from "axios";
 
 const API_URL = "https://ecommerce-clase-backend.herokuapp.com";
 
+
 const getAll = async () => {
   const res = await axios.get(API_URL + "/products");
   return res.data;
