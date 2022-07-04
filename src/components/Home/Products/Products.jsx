@@ -18,7 +18,7 @@ const Products = () => {
      }, []);
   
     if (isLoading) {
-      return <h1>Cargando productos...</h1>;
+      return <h1>No esta conectado el Back-End...</h1>;
     }
   
     return (
